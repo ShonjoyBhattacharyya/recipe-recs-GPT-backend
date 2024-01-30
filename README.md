@@ -1,0 +1,1 @@
+This is the firebase backend file. This creates a url to my firebase cloud function where I can then hit a chatgpt end point with whatever prompts I want. I chose to build a backend with this to protect my api key and allow other services to also prompt chatgpt
