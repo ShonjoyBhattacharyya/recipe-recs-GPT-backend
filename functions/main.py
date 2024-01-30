@@ -3,7 +3,7 @@ import os
 from firebase_functions import firestore_fn, https_fn
 import json 
 
-openai.api_key = "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"
+openai.api_key = "OPEN-AI-KEY"
 
 
 # Initialize Firebase Admin
