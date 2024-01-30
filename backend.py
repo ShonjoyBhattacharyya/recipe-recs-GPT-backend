@@ -9,7 +9,7 @@ initialize_app(cred)
 app = Flask(__name__)
 
 # Initialize OpenAI API
-openai = OpenAIApi('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')
+openai = OpenAIApi('open-ai-key')
 
 @app.route('/generateMotivationalQuote', methods=['POST'])
 def generate_motivational_quote():
