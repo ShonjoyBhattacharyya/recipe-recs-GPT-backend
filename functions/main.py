@@ -16,7 +16,7 @@ def chat(req: https_fn.Request) -> https_fn.Response:
     try:
         # Get the prompt from the URL query parameter
         request_args = req.args
-        prompt = request_args.get('prompt', '') if request_args else 'give me a motivational quote'
+        prompt = request_args.get('prompt', '') if request_args else 'give me a random healthy recipe'
 
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",  # Specify the model
