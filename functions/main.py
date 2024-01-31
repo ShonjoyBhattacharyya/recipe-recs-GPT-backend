@@ -22,7 +22,7 @@ def chat(req: https_fn.Request) -> https_fn.Response:
             model="gpt-3.5-turbo",  # Specify the model
             messages=[{"role": "system", "content": "You are a helpful assistant."},
                       {"role": "user", "content": prompt}],
-            max_tokens=50
+            max_tokens=150
         )
 
         # Send response back
